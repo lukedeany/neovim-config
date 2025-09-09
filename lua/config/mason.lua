@@ -13,7 +13,7 @@ require("mason").setup({
 
 require("mason-lspconfig").setup({
     -- Optional: ensure certain servers are installed automatically
-    ensure_installed = { 'jdtls' },
+    ensure_installed = { 'jdtls', 'clangd' },
     -- Optional: customize automatic setup for specific servers
     handlers = {
         function(server_name)

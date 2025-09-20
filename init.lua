@@ -4,6 +4,7 @@ require("config.lazy")
 -- get lsp configs running
 vim.lsp.enable("javals")
 vim.lsp.enable("cls")
+vim.lsp.enable("pyls")
 
 -- Setup inline diagonistic information
 vim.diagnostic.config({ virtual_text = true })
